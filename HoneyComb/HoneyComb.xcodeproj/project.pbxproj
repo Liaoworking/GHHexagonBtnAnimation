@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2418500A1D6169D6004E639C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 241850091D6169D6004E639C /* main.m */; };
+		2418500D1D6169D6004E639C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2418500C1D6169D6004E639C /* AppDelegate.m */; };
+		241850101D6169D6004E639C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2418500F1D6169D6004E639C /* ViewController.m */; };
+		241850131D6169D6004E639C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241850111D6169D6004E639C /* Main.storyboard */; };
+		241850151D6169D6004E639C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241850141D6169D6004E639C /* Assets.xcassets */; };
+		241850181D6169D6004E639C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241850161D6169D6004E639C /* LaunchScreen.storyboard */; };
+		241850231D6169D7004E639C /* HoneyCombTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 241850221D6169D7004E639C /* HoneyCombTests.m */; };
+		2418502E1D6169D7004E639C /* HoneyCombUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2418502D1D6169D7004E639C /* HoneyCombUITests.m */; };
+		2418503D1D616CED004E639C /* HoneyCombVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2418503C1D616CED004E639C /* HoneyCombVC.m */; };
+		241850821D61B30E004E639C /* BGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 241850811D61B30E004E639C /* BGView.m */; };
+		241850851D61BAB0004E639C /* GHProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 241850841D61BAB0004E639C /* GHProfileVC.m */; };
+		241850881D61BE14004E639C /* UIView+GHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 241850871D61BE14004E639C /* UIView+GHCategory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2418501F1D6169D7004E639C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24184FFD1D6169D6004E639C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 241850041D6169D6004E639C;
+			remoteInfo = HoneyComb;
+		};
+		2418502A1D6169D7004E639C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24184FFD1D6169D6004E639C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 241850041D6169D6004E639C;
+			remoteInfo = HoneyComb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		241850051D6169D6004E639C /* HoneyComb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoneyComb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		241850091D6169D6004E639C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2418500B1D6169D6004E639C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2418500C1D6169D6004E639C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2418500E1D6169D6004E639C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2418500F1D6169D6004E639C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		241850121D6169D6004E639C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		241850141D6169D6004E639C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		241850171D6169D6004E639C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		241850191D6169D6004E639C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2418501E1D6169D7004E639C /* HoneyCombTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneyCombTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		241850221D6169D7004E639C /* HoneyCombTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoneyCombTests.m; sourceTree = "<group>"; };
+		241850241D6169D7004E639C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		241850291D6169D7004E639C /* HoneyCombUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneyCombUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2418502D1D6169D7004E639C /* HoneyCombUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoneyCombUITests.m; sourceTree = "<group>"; };
+		2418502F1D6169D7004E639C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2418503B1D616CED004E639C /* HoneyCombVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoneyCombVC.h; sourceTree = "<group>"; };
+		2418503C1D616CED004E639C /* HoneyCombVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoneyCombVC.m; sourceTree = "<group>"; };
+		241850801D61B30E004E639C /* BGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGView.h; sourceTree = "<group>"; };
+		241850811D61B30E004E639C /* BGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGView.m; sourceTree = "<group>"; };
+		241850831D61BAB0004E639C /* GHProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHProfileVC.h; sourceTree = "<group>"; };
+		241850841D61BAB0004E639C /* GHProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHProfileVC.m; sourceTree = "<group>"; };
+		241850861D61BE14004E639C /* UIView+GHCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GHCategory.h"; sourceTree = "<group>"; };
+		241850871D61BE14004E639C /* UIView+GHCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GHCategory.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		241850021D6169D6004E639C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2418501B1D6169D7004E639C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241850261D6169D7004E639C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24184FFC1D6169D6004E639C = {
+			isa = PBXGroup;
+			children = (
+				241850071D6169D6004E639C /* HoneyComb */,
+				241850211D6169D7004E639C /* HoneyCombTests */,
+				2418502C1D6169D7004E639C /* HoneyCombUITests */,
+				241850061D6169D6004E639C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		241850061D6169D6004E639C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				241850051D6169D6004E639C /* HoneyComb.app */,
+				2418501E1D6169D7004E639C /* HoneyCombTests.xctest */,
+				241850291D6169D7004E639C /* HoneyCombUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		241850071D6169D6004E639C /* HoneyComb */ = {
+			isa = PBXGroup;
+			children = (
+				241850861D61BE14004E639C /* UIView+GHCategory.h */,
+				241850871D61BE14004E639C /* UIView+GHCategory.m */,
+				2418500B1D6169D6004E639C /* AppDelegate.h */,
+				2418500C1D6169D6004E639C /* AppDelegate.m */,
+				2418500E1D6169D6004E639C /* ViewController.h */,
+				2418500F1D6169D6004E639C /* ViewController.m */,
+				2418503B1D616CED004E639C /* HoneyCombVC.h */,
+				2418503C1D616CED004E639C /* HoneyCombVC.m */,
+				241850801D61B30E004E639C /* BGView.h */,
+				241850811D61B30E004E639C /* BGView.m */,
+				241850831D61BAB0004E639C /* GHProfileVC.h */,
+				241850841D61BAB0004E639C /* GHProfileVC.m */,
+				241850111D6169D6004E639C /* Main.storyboard */,
+				241850141D6169D6004E639C /* Assets.xcassets */,
+				241850161D6169D6004E639C /* LaunchScreen.storyboard */,
+				241850191D6169D6004E639C /* Info.plist */,
+				241850081D6169D6004E639C /* Supporting Files */,
+			);
+			path = HoneyComb;
+			sourceTree = "<group>";
+		};
+		241850081D6169D6004E639C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				241850091D6169D6004E639C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		241850211D6169D7004E639C /* HoneyCombTests */ = {
+			isa = PBXGroup;
+			children = (
+				241850221D6169D7004E639C /* HoneyCombTests.m */,
+				241850241D6169D7004E639C /* Info.plist */,
+			);
+			path = HoneyCombTests;
+			sourceTree = "<group>";
+		};
+		2418502C1D6169D7004E639C /* HoneyCombUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2418502D1D6169D7004E639C /* HoneyCombUITests.m */,
+				2418502F1D6169D7004E639C /* Info.plist */,
+			);
+			path = HoneyCombUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		241850041D6169D6004E639C /* HoneyComb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241850321D6169D7004E639C /* Build configuration list for PBXNativeTarget "HoneyComb" */;
+			buildPhases = (
+				241850011D6169D6004E639C /* Sources */,
+				241850021D6169D6004E639C /* Frameworks */,
+				241850031D6169D6004E639C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoneyComb;
+			productName = HoneyComb;
+			productReference = 241850051D6169D6004E639C /* HoneyComb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2418501D1D6169D7004E639C /* HoneyCombTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241850351D6169D7004E639C /* Build configuration list for PBXNativeTarget "HoneyCombTests" */;
+			buildPhases = (
+				2418501A1D6169D7004E639C /* Sources */,
+				2418501B1D6169D7004E639C /* Frameworks */,
+				2418501C1D6169D7004E639C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				241850201D6169D7004E639C /* PBXTargetDependency */,
+			);
+			name = HoneyCombTests;
+			productName = HoneyCombTests;
+			productReference = 2418501E1D6169D7004E639C /* HoneyCombTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		241850281D6169D7004E639C /* HoneyCombUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241850381D6169D7004E639C /* Build configuration list for PBXNativeTarget "HoneyCombUITests" */;
+			buildPhases = (
+				241850251D6169D7004E639C /* Sources */,
+				241850261D6169D7004E639C /* Frameworks */,
+				241850271D6169D7004E639C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2418502B1D6169D7004E639C /* PBXTargetDependency */,
+			);
+			name = HoneyCombUITests;
+			productName = HoneyCombUITests;
+			productReference = 241850291D6169D7004E639C /* HoneyCombUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24184FFD1D6169D6004E639C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Guanghui Liao";
+				TargetAttributes = {
+					241850041D6169D6004E639C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YG9MC8D2BK;
+					};
+					2418501D1D6169D7004E639C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 241850041D6169D6004E639C;
+					};
+					241850281D6169D7004E639C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 241850041D6169D6004E639C;
+					};
+				};
+			};
+			buildConfigurationList = 241850001D6169D6004E639C /* Build configuration list for PBXProject "HoneyComb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24184FFC1D6169D6004E639C;
+			productRefGroup = 241850061D6169D6004E639C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				241850041D6169D6004E639C /* HoneyComb */,
+				2418501D1D6169D7004E639C /* HoneyCombTests */,
+				241850281D6169D7004E639C /* HoneyCombUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		241850031D6169D6004E639C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241850181D6169D6004E639C /* LaunchScreen.storyboard in Resources */,
+				241850151D6169D6004E639C /* Assets.xcassets in Resources */,
+				241850131D6169D6004E639C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2418501C1D6169D7004E639C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241850271D6169D7004E639C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		241850011D6169D6004E639C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241850851D61BAB0004E639C /* GHProfileVC.m in Sources */,
+				241850101D6169D6004E639C /* ViewController.m in Sources */,
+				241850881D61BE14004E639C /* UIView+GHCategory.m in Sources */,
+				2418503D1D616CED004E639C /* HoneyCombVC.m in Sources */,
+				2418500D1D6169D6004E639C /* AppDelegate.m in Sources */,
+				2418500A1D6169D6004E639C /* main.m in Sources */,
+				241850821D61B30E004E639C /* BGView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2418501A1D6169D7004E639C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241850231D6169D7004E639C /* HoneyCombTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241850251D6169D7004E639C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2418502E1D6169D7004E639C /* HoneyCombUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		241850201D6169D7004E639C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 241850041D6169D6004E639C /* HoneyComb */;
+			targetProxy = 2418501F1D6169D7004E639C /* PBXContainerItemProxy */;
+		};
+		2418502B1D6169D7004E639C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 241850041D6169D6004E639C /* HoneyComb */;
+			targetProxy = 2418502A1D6169D7004E639C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		241850111D6169D6004E639C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				241850121D6169D6004E639C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		241850161D6169D6004E639C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				241850171D6169D6004E639C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		241850301D6169D7004E639C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		241850311D6169D7004E639C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		241850331D6169D7004E639C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HoneyComb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liaoworking.HoneyComb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		241850341D6169D7004E639C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HoneyComb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liaoworking.HoneyComb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		241850361D6169D7004E639C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HoneyCombTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liaoworking.HoneyCombTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoneyComb.app/HoneyComb";
+			};
+			name = Debug;
+		};
+		241850371D6169D7004E639C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HoneyCombTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liaoworking.HoneyCombTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoneyComb.app/HoneyComb";
+			};
+			name = Release;
+		};
+		241850391D6169D7004E639C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HoneyCombUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liaoworking.HoneyCombUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HoneyComb;
+			};
+			name = Debug;
+		};
+		2418503A1D6169D7004E639C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HoneyCombUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liaoworking.HoneyCombUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HoneyComb;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		241850001D6169D6004E639C /* Build configuration list for PBXProject "HoneyComb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241850301D6169D7004E639C /* Debug */,
+				241850311D6169D7004E639C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241850321D6169D7004E639C /* Build configuration list for PBXNativeTarget "HoneyComb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241850331D6169D7004E639C /* Debug */,
+				241850341D6169D7004E639C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241850351D6169D7004E639C /* Build configuration list for PBXNativeTarget "HoneyCombTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241850361D6169D7004E639C /* Debug */,
+				241850371D6169D7004E639C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241850381D6169D7004E639C /* Build configuration list for PBXNativeTarget "HoneyCombUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241850391D6169D7004E639C /* Debug */,
+				2418503A1D6169D7004E639C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24184FFD1D6169D6004E639C /* Project object */;
+}
